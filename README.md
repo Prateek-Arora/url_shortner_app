@@ -10,7 +10,7 @@ This app allows a user to convert big URLs to shortened ones and provides featur
 
 ## Demo
 
-Insert gif or link to demo
+https://user-images.githubusercontent.com/37131837/139707895-a58e3c7f-ede1-4c73-8cec-6eb5408d9f53.mp4
 
 
 ## Features
@@ -77,7 +77,17 @@ To run this project, you will need to add the following environment variables to
 
 ## Screenshots
 
-<img width="1792" alt="Screenshot 2021-11-01 at 9 02 21 PM" src="https://user-images.githubusercontent.com/37131837/139698848-efe55aad-98b8-4dfb-a7c4-01c380372b80.png">
+![Register User](https://user-images.githubusercontent.com/37131837/139704124-9f222769-12f3-4dc5-854e-e5723982ad5a.png)
+
+![Login User](https://user-images.githubusercontent.com/37131837/139704167-d98c5267-adf1-430e-858e-b14fc093d4ce.png)
+
+![Dashboard](https://user-images.githubusercontent.com/37131837/139704193-8018b4c3-a5f5-4802-8472-d85a3390ebef.png)
+
+![Dashboard with shortened URL](https://user-images.githubusercontent.com/37131837/139704219-2b69955c-bd81-4bcb-9c24-5c1e7feb21d8.png)
+
+![Update shortened URL](https://user-images.githubusercontent.com/37131837/139704236-f6ef70bf-2719-4634-a5d3-327d4facb29f.png)
+
+![URL Analytics](https://user-images.githubusercontent.com/37131837/139704255-78c85a1a-ae40-40ab-bcef-b2887f955af2.png)
 
 
 ## Tech Stack

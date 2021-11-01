@@ -8,7 +8,6 @@ This app allows a user to convert big URLs to shortened ones and provides featur
 
 - [@prateekarora](https://github.com/Prateek-Arora)
 
-
 ## Demo
 
 Insert gif or link to demo
@@ -78,7 +77,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<img width="1792" alt="Screenshot 2021-11-01 at 9 02 21 PM" src="https://user-images.githubusercontent.com/37131837/139698848-efe55aad-98b8-4dfb-a7c4-01c380372b80.png">
 
 
 ## Tech Stack

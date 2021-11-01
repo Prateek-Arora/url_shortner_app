@@ -1,4 +1,5 @@
 import React from 'react'
+import axios from "axios"
 import './App.css';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 import { Provider } from "react-redux";
@@ -13,6 +14,7 @@ import Register from './components/Auth/Register';
 import Login from './components/Auth/Login';
 import PrivateRoute from "./components/private-route/PrivateRoute";
 import Dashboard from "./components/Dashboard/Dashboard";
+import Analytics from './components/Dashboard/Analytics';
 
 
 if (localStorage.jwtToken) {
@@ -36,8 +38,17 @@ function App() {
           <Route exact path='/' component={Landing} />
           <Route exact path='/register' component={Register} />
           <Route exact path='/login' component={Login} />
+          <Route path='/short/:url' component={(props) => {
+            const urlCode = props.match.params.url;
+            (async () => {
+              const longUrl = await axios.get(`/${urlCode}`);
+              window.location.href = `${longUrl.data}`;
+            })()
+            return null;
+          }} />
           <Switch>
             <PrivateRoute exact path="/dashboard" component={Dashboard} />
+            <PrivateRoute exact path="/dashboard/analytics/:url" component={Analytics} />
           </Switch>
         </div>
       </BrowserRouter>
